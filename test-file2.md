@@ -1,7 +1,10 @@
-# Guaranteed to Fail
+[link](https://google.com/)
+![Image](random-image)
 
-[This link \[should\] break](https://google.com)
+[link]hello(shouldNotBeALink)
 
-> According to Jukka K. Korpela on [StackOverflow](https://stackoverflow.com/questions/13225028/is-it-ok-to-have-brackets-or-parenthesis-in-url), parantheses are allowed in urls. 
+[Test]
 
-[So should this one\(because of the parantheses\)](https://andthis.link/can-have-\(\)-in-them)
+()
+
+[link](nested.link/()/..)
