@@ -1,10 +1,2 @@
-[link](https://google.com/)
-![Image](random-image)
 
-[link]hello(shouldNotBeALink)
-
-[Test]
-
-()
-
-[link](nested.link/()/..)
+[(this is [a] link)](https://google.com)
