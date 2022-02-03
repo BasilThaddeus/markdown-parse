@@ -71,7 +71,7 @@ public class MarkdownParseTest {
     @Test
     public void testFailingCase() throws IOException {
         String contents = Files.readString(Path.of("./failing-case.md"));
-        List<String> expect = List.of("https://google.com/");
+        List<String> expect = List.of();
         assertEquals(MarkdownParse.getLinks(contents), expect);
     }
     
