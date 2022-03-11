@@ -1,5 +1,10 @@
 CLASSPATH = lib/*:.
 
+run: MarkdownParse.java MarkdownParseTest.java
+	javac -g -cp $(CLASSPATH) MarkdownParse.java
+	javac -cp $(CLASSPATH) MarkdownParseTest.java
+	java -cp $(CLASSPATH) org.junit.runner.JUnitCore MarkdownParseTest
+
 test: MarkdownParse.class MarkdownParseTest.class
 	java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 

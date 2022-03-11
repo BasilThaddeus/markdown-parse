@@ -1,5 +1,5 @@
 
 for file in test-files/*.md;
 do
-  java MarkdownParse $file
+  java -cp "lib/*:." MarkdownParse $file
 done
